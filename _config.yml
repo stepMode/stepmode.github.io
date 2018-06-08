@@ -42,9 +42,6 @@ paginate_path: "/page:num/"
 header_pages:
   - _pages/blog.md
   - _pages/about.md
-  - _pages/contact.md
-  - _pages/setup.md
-  - _pages/github.md
 
 plugins:
   - jekyll-feed
