@@ -7,7 +7,7 @@ description: >
   Google search results) and in your feed.xml site description.
 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stepmode.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 website: https://www.stepmode.github.io
 github_username:  stepmode
