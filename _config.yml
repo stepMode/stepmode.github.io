@@ -1,1 +1,81 @@
-remote_theme: brettinternet/minimaless
+title: Welcome
+author: stepMode
+email: 
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+website: https://www.stepmode.github.io
+github_username:  stepmode
+bitbucket_username: 
+codepen_username: 
+linkedin_username: 
+twitter_username: lsruly
+facebook_username: 
+instagram_username: 
+keybase_username: 
+paypal_username: 
+stackoverflow_username:  # (developer story)
+
+
+collections:
+  - setup
+
+# disqus:
+#   shortname:
+
+# Minimaless date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minimaless:
+  date_format: "%b %-d, %Y"
+preview_posts: true
+permalink: /:title
+paginate: 10 # increase this value to reflect how many posts per page you want
+paginate_path: "/page:num/"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - _pages/blog.md
+  - _pages/about.md
+  - _pages/contact.md
+  - _pages/setup.md
+  - _pages/github.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-archives
+  - jekyll-paginate
+
+markdown: kramdown
+theme: minimaless
+# remote_theme: brettinternet/minimaless # uncomment to allow GitHub to build for GitHub Pages - https://github.com/blog/2464-use-any-theme-with-github-pages
+
+include:
+  - _pages
+exclude:
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - tmp
