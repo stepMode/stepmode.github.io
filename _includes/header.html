@@ -4,7 +4,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-      <a class="site-title"href="{{ "/" | relative_url }}">
+      <a class="site-title"href="{{ "/splash" | relative_url }}">
       {% for file in site.static_files %}
         {% if file.basename == 'logo' %}
         <img class="site-logo" src="{{ file.path | relative_url }}" alt="site logo" />
