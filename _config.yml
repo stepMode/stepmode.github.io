@@ -9,7 +9,7 @@ description: >
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://stepmode.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-website: https://stepmode.github.io/splash
+website: https://stepmode.github.io/
 github_username:  stepmode
 bitbucket_username: 
 codepen_username: 
