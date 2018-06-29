@@ -37,7 +37,7 @@ layout: default
       {% endif %}
       <span class="page-number ">{{ paginator.page }} / {{ paginator.total_pages }}</span>
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}" class="next">
           <div><i class="fa fa-caret-right"></i></div>
         </a>
       {% else %}
