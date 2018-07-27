@@ -36,4 +36,4 @@ As the name may gave away, it's a Discord community with a focus on Penetration 
 
 <br>
 
-**_Disclaimer: Content on this blog is subject to change 24/7 but I will try to mark relevant edits in posts._**
+<span style="color:red">*Disclaimer: Content on this blog is subject to change 24/7 but I will try to mark relevant edits in posts.*</span>
