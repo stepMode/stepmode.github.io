@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /about/
 ---
-#### About me
+#### <h4>About me</h4>
 * Finished apprenticeship in IT
 * (soon to be) studying CS
 * Noob of all sorts but motivated to learn something new everyday
@@ -11,7 +11,7 @@ permalink: /about/
 
 
 
-#### The Purpose of this blog is
+#### <h4>The Purpose of this blog is</h4>
 * ...to share my interest in computers, especially in the field of information security
 * ...to improve my overall written English, with a focus on technical terms and writing
 * ...to have somewhat of a log of the progress I might achieve
