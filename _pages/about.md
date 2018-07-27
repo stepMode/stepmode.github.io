@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /about/
 ---
-## About me
+### About me
 * Finished apprenticeship in IT
 * (soon to be) studying CS
 * Noob of all sorts but motivated to learn something new everyday
