@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /about/
 ---
-### About me
+## **About me**
 * Finished apprenticeship in IT
 * (soon to be) studying CS
 * Noob of all sorts but motivated to learn something new everyday
@@ -11,7 +11,7 @@ permalink: /about/
 
 
 
-### What to expect
+### **What to expect**
 * CTF write-ups
 * Posts about all kinds of potential projects
 * Videos on certain topics...sometime in the future maybe?
