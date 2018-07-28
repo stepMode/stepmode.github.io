@@ -1,7 +1,8 @@
 title: Welcome
 author: stepMode
 email:
-description: > infosec blog.
+description: >
+  infosec blog.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://stepmode.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
