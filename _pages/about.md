@@ -21,6 +21,7 @@ permalink: /about/
 * CTF write-ups
 * Posts about all kinds of potential projects
 * Videos on certain topics...sometime in the future maybe?
+* My own opinion
 
 
 
