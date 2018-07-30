@@ -63,6 +63,8 @@ I'm not planning to explain Wireshark to you, it's free and a pretty great tool,
 2. Contains the human readable representation of data of the selected packets
 3. Displays the actual data in form of a hexdump
 
+<br>
+
 I guess we start by looking for interesting packets by just scrolling through the packet list. This shouldn't be too hard since FTP usually sends data in plaintext.
 Scrolling through the packets we see a `USER nicholsr` and a `password ftppass`, but that is not what we're looking for. We want the flag for the points.
 
@@ -76,7 +78,7 @@ A few packets later we see a packet that says `FTP Data: 28 bytes`. A closer loo
 
 
 {% include image.html
-            img={{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_flag.png" | absolute_url }}
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_flag.png"
             title="level2_flag"
             caption="Flag for Level 2" %}
 
