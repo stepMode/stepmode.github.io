@@ -44,7 +44,12 @@ Hiding a flag in the page source is a really common beginner challenge and can b
 # Level 2 - FTP File Transfer
 
 
-![Challenge 2 - The Task]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_task.png" | absolute_url }})
+<!-- ![Challenge 2 - The Task]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_task.png" | absolute_url }}) -->
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_task.png"
+            title="level2_task"
+            caption="Level 2 task" %}
 
 <br>
 
@@ -53,7 +58,12 @@ For the second challenge we are presented with a `.pcap` file (so a file contain
 
 <br>
 
-![Challenge 2 - pcap]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_pcap.png" | absolute_url }})
+<!-- ![Challenge 2 - pcap]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_pcap.png" | absolute_url }}) -->
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_pcap.png"
+            title="level2_pcap"
+            caption="Level 2 pcap" %}
 
 <br>
 
@@ -75,7 +85,7 @@ A few packets later we see a packet that says `FTP Data: 28 bytes`. A closer loo
 
 <br>
 
-![Challenge 2 - flag (value redacted)]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_flag.png" | absolute_url }})
+<!-- ![Challenge 2 - flag (value redacted)]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_flag.png" | absolute_url }}) -->
 
 
 {% include image.html
