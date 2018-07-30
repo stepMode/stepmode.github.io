@@ -124,4 +124,26 @@ Great, second challenge solved.
 
 <br>
 
-So we get a hash and we need to crack it.
+So we get a hash and we need to crack it. Looks like we need to power our cracking rack and run hashcat against it, or do we? The challenge does not specify what kind of hash it is and to actually tackle it with hashcat we need to provide a hash function. To me it looks like an md5 hash, but that's just something that builds over time. To make sure we can ~~google~~ `<insert favourite search-engine>` the hash and see if we get some useful results.
+
+<br>
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level3_flag.png"
+            title="level3_flag"
+            caption="Flag Level 3" %}
+
+<br>
+
+Well, that was easy. In CTF like these it's usually not required to crack difficult hashes. It's more likely to be hash that is well known and can be found via `<insert favourite search-engine>` or one of the online cracker tools [e.g. https://hashkiller.co.uk/ or https://crackstation.net/] will give it to you.
+
+If you're interested in *actual* hash cracking though, I recommend you take a look at `hashcat`, it's an awesome program and they have a nice community over at their [forums](https://hashcat.net/forum/), with lots of smart people. But remember to stay legal!
+
+<br>
+#Level 4 - Encoded Credentials
+
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level4_task.png"
+            title="level4_task"
+            caption="Level 4 Task" %}
