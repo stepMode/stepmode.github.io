@@ -98,3 +98,5 @@ Great, second challenge solved.
             caption="Level 3 Task" %}
 
 <br>
+
+So we get a hash and we need to crack it. 
