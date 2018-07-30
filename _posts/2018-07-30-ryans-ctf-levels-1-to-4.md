@@ -26,6 +26,6 @@ Okay, that's nice but not really helpful. First thing I did at this point was ch
 
 There we go, Level 1 done.
 
-Hiding the flag in the page source is a really common beginner challenge and can be seen as taking the first step out of your comfort zone of just browsing the web.
+Hiding a flag in the page source is a really common beginner challenge and can be seen as taking the first step out of your comfort zone of just browsing the web.
 
 ## Level 2 - FTP File Transfer
