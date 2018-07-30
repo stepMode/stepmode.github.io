@@ -1,5 +1,5 @@
-<!-- _includes/image.html
-<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> -->
+<!-- _includes/image.html  -->
+<link rel="stylesheet" href="image.css">
 <div class="image-wrapper" >
     {% if include.url %}
     <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
@@ -12,13 +12,3 @@
         <p class="image-caption">{{ include.caption }}</p>
     {% endif %}
 </div>
-
-
-.image-wrapper {
-    text-align: center;
-
-    .image-caption {
-        color: $grey-color;
-        margin-top: $spacing-unit / 3;
-    }
-}

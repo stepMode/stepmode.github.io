@@ -80,7 +80,7 @@ A few packets later we see a packet that says `FTP Data: 28 bytes`. A closer loo
 {% include image.html
             img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_flag.png"
             title="level2_flag"
-            caption="Flag for Level 2" %}
+            caption="Flag Level 2" %}
 
 
 
