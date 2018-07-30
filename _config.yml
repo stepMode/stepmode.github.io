@@ -40,6 +40,7 @@ paginate_path: "/page:num/"
 header_pages:
   - _pages/blog.md
   - _pages/about.md
+  - _pages/tags.md
 
 plugins:
   - jekyll-feed
