@@ -13,6 +13,7 @@ For my first blog post, or rather series of blog posts, I chose [Ryan's CTF](htt
 
 
 ![Challenge 1 - The Task]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_task.png" | absolute_url }})
+*img caption*
 
 <br>
 
@@ -99,4 +100,4 @@ Great, second challenge solved.
 
 <br>
 
-So we get a hash and we need to crack it. 
+So we get a hash and we need to crack it.
