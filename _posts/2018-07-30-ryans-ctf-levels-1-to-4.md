@@ -90,3 +90,11 @@ Great, second challenge solved.
 
 <br>
 # Level 3 - Crack That Hash
+
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level3_task.png"
+            title="level3_task"
+            caption="Level 3 Task" %}
+
+<br>
