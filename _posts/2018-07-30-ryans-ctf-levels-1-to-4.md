@@ -140,7 +140,7 @@ Well, that was easy. In CTF like these it's usually not required to crack diffic
 If you're interested in *actual* hash cracking though, I recommend you take a look at `hashcat`, it's an awesome program and they have a nice community over at their [forums](https://hashcat.net/forum/), with lots of smart people. But remember to stay legal!
 
 <br>
-#Level 4 - Encoded Credentials
+# Level 4 - Encoded Credentials
 
 
 {% include image.html
