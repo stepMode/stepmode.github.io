@@ -8,7 +8,7 @@ tags: ctf
 ---
 # Ryan's CTF - Levels 1-5
 
-For my first blog post I chose [Ryan's CTF](http://ctf.ryanic.com/), in fact this is also my first write-up for a CTF in general. The challenges range from *Beginner* to *Extrem* and at the end there is even a *NINJA!* challenge waiting for us. I will start with the first four challenges that represent the beginner section. Posts, containing all the other levels will be release in the near future. So let's start.
+For my first blog post I chose [Ryan's CTF](http://ctf.ryanic.com/), in fact this is also my first write-up for a CTF in general so bear with me. The challenges range from *Beginner* to *Extrem* and at the end there is even a *NINJA!* challenge waiting for us. I will start with the first four challenges that represent the beginner section. Posts, containing all the other levels will be release in the near future. So let's start.
 
 ## Level 1 - Hidden Web Flag
 
