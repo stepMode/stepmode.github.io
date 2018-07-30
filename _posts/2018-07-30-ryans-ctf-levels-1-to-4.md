@@ -75,6 +75,13 @@ A few packets later we see a packet that says `FTP Data: 28 bytes`. A closer loo
 ![Challenge 2 - flag (value redacted)]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_flag.png" | absolute_url }})
 
 
+{% include image.html
+            img={{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_flag.png" | absolute_url }}
+            title="level2_flag"
+            caption="Flag for Level 2" %}
+
+
+
 <br>
 
 Great, second challenge solved.
