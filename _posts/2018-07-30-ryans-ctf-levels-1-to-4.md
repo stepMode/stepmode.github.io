@@ -12,8 +12,12 @@ For my first blog post, or rather series of blog posts, I chose [Ryan's CTF](htt
 # Level 1 - Hidden Web Flag
 
 
-![Challenge 1 - The Task]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_task.png" | absolute_url }})
-*img caption*
+<!-- ![Challenge 1 - The Task]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_task.png" | absolute_url }}) -->
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_task.png"
+            title="level1_task"
+            caption="Level 1 Task" %}
 
 <br>
 
@@ -22,7 +26,12 @@ We get the URL  [http://ctf.ryanic.com:8080](http://ctf.ryanic.com:8080) and are
 <br>
 
 
-![secret.html]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_webpage.png" | absolute_url }})
+<!-- ![secret.html]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_webpage.png" | absolute_url }}) -->
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_webpage.png"
+            title="level1_webpage"
+            caption="Webpage" %}
 
 <br>
 
@@ -33,7 +42,12 @@ Okay, that's nice but not really helpful. First thing I did at this point was ch
 
 <br>
 
-![Flag (value redacted)]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_flag.png" | absolute_url }})
+<!-- ![Flag (value redacted)]({{ "/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_flag.png" | absolute_url }}) -->
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_flag.png"
+            title="level1_flag"
+            caption="Flag Level 1" %}
 
 <br>
 
@@ -49,7 +63,7 @@ Hiding a flag in the page source is a really common beginner challenge and can b
 {% include image.html
             img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_task.png"
             title="level2_task"
-            caption="Level 2 task" %}
+            caption="Level 2 Task" %}
 
 <br>
 
