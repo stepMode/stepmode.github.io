@@ -72,19 +72,20 @@ pre {
 /**
  * Images
  */
-/**img {
+img {
   max-width: 100%;
+  height: auto;
   vertical-align: middle;
-}*/
+}
 
 
 
 /**
  * Figures
  */
-/**figure > img {
+figure > img {
   display: block;
-}*/
+}
 
 figcaption {
   font-size: $small-font-size;
