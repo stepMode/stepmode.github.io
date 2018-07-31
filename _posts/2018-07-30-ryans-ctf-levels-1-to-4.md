@@ -152,6 +152,8 @@ If you're interested in *actual* hash cracking though, I recommend you take a lo
             title="level4_task"
             caption="Level 4 Task" %}
 
+<br>
+
 Last challenge in the *Beginner* area.
 
 So the task gives us a `HTTP GET request` and we can see the basic access authentication header field - `Authorization: Basic YWRtaW46dW5pY29ybmlj` - holds a value. If we look at the Wikipedia article of [basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) we can see the value is only base64 encoded and **not** encrypted (encoding != encryption).
