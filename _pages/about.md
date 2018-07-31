@@ -13,7 +13,7 @@ permalink: /about/
 * Finished apprenticeship in IT
 * (soon to be) studying CS
 * Noob of all sorts but motivated to learn something new everyday
-* I like to break things, use them in unconventional ways...and fixing it eventually
+* I like to break things...and fixing them eventually
 
 
 
