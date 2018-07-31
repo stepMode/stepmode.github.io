@@ -51,7 +51,7 @@ Okay, that's nice but not really helpful. First thing I did at this point was ch
 {% include image.html
             img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level1_flag.png"
             title="level1_flag"
-            caption="Flag Level 1" %}
+            caption="Flag Level 1 (value redacted)" %}
 
 <br>
 
@@ -109,7 +109,7 @@ A few packets later we see a packet that says `FTP Data: 28 bytes`. A closer loo
 {% include image.html
             img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level2_flag.png"
             title="level2_flag"
-            caption="Flag Level 2" %}
+            caption="Flag Level 2 (value redacted)" %}
 
 
 
@@ -135,7 +135,7 @@ So we get a hash and we need to crack it. Looks like we need to power our cracki
 {% include image.html
             img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level3_flag.png"
             title="level3_flag"
-            caption="Flag Level 3" %}
+            caption="Flag Level 3 (value redacted)" %}
 
 <br>
 
@@ -174,14 +174,14 @@ Since it's just encoding and a really common and well known too, we can easily d
 {% include image.html
             img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level4_dec_base64_ps.png"
             title="level4_dec_base64_ps"
-            caption="Example commands to decode base64 in PowerShell" %}
+            caption="Example commands to decode base64 in PowerShell (flag value redacted)" %}
 
 <br>
 
 {% include image.html
             img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level4_dec_base64_bash.png"
             title="level4_dec_base64_bash"
-            caption="Example command to decode base64 in a Linux terminal" %}
+            caption="Example command to decode base64 in a Linux terminal (flag value redacted)" %}
 
 <br>
 
