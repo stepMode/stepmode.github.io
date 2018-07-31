@@ -9,7 +9,7 @@ tags: ctf
 
 For my first blog post, or rather series of blog posts, I chose [Ryan's CTF](http://ctf.ryanic.com/). In fact, this is also my first write-up for a CTF in general so bear with me. The challenges range from *Beginner* to *Extrem* and at the end there is even a *NINJA!* challenge waiting for us. To be honest, all of the challenge were very well doable even for a relative beginner like me, but the difficulty is perfect for people just starting out with CTFs.
 
-While I am at it, thanks to both [ryanic](https://www.ryanic.com/) for hosting and creating the challenges as well as [John Hammond](https://www.youtube.com/user/RootOfTheNull/) for bringing them to my attention. He also released a series of videos on his YouTube channel solving Ryan's CTF. Go check him out, he produces great content. (and no, I did not use his videos to solve the challenges or write my posts :D )
+While I am at it, thanks to both [ryanic](https://www.ryanic.com/) for hosting and creating the challenges as well as [John Hammond](https://www.youtube.com/user/RootOfTheNull/) for bringing them to my attention. He also released a series of videos on his YouTube channel solving Ryan's CTF. Go check him out, he produces great content. (And no, I did not use his videos to solve the challenges, that would ruin the fun for me. Enjoyed them afterwards though)
 
 I will start with the first four challenges that represent the beginner section. Posts, containing all the other levels will be release in the near future. So let's start.
 
