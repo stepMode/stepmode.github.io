@@ -12,7 +12,6 @@ permalink: /about/
 ### **About me**
 * Finished apprenticeship in IT
 * (soon to be) studying CS
-* Noob of all sorts but motivated to learn something new everyday
 * I like to break things...and fixing them eventually
 
 
@@ -38,4 +37,4 @@ permalink: /about/
 <br>
 <br>
 Last but not least I would like to tell you about [The Penetration Testing Community<i class="fa fa-external-link"></i>](https://discord.gg/sNsCSqZ){:target="_blank"}.
-As the name may gave away, it's a Discord community with a focus on Penetration Testing and related topics. We are happy to welcome people of any skill level and background. But we require a certain amount of **mature / professional** behaviour and don't accept illegal activities.
+As the name may give away, it's a Discord community with a focus on Penetration Testing and related topics. We are happy to welcome people of any skill level and background. But we require a certain amount of **mature / professional** behaviour and don't accept illegal activities.
