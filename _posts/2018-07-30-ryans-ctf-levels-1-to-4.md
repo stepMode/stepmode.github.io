@@ -7,7 +7,11 @@ meta: ""
 tags: ctf
 ---
 
-For my first blog post, or rather series of blog posts, I chose [Ryan's CTF](http://ctf.ryanic.com/). In fact, this is also my first write-up for a CTF in general so bear with me. The challenges range from *Beginner* to *Extrem* and at the end there is even a *NINJA!* challenge waiting for us. I will start with the first four challenges that represent the beginner section. Posts, containing all the other levels will be release in the near future. So let's start.
+For my first blog post, or rather series of blog posts, I chose [Ryan's CTF](http://ctf.ryanic.com/). In fact, this is also my first write-up for a CTF in general so bear with me. The challenges range from *Beginner* to *Extrem* and at the end there is even a *NINJA!* challenge waiting for us. To be honest, all of the challenge were very well doable even for a relative beginner like me, but the difficulty is perfect for people just starting out with CTFs.
+
+While I am at it, thanks to both [ryanic](https://www.ryanic.com/) for hosting and creating the challenges as well as [John Hammond](https://www.youtube.com/user/RootOfTheNull/) for bringing them to my attention. He also released a series of videos on his YouTube channel solving Ryan's CTF. Go check him out, he produces great content. (and no, I did not use his videos to solve the challenges or write my posts :D )
+
+I will start with the first four challenges that represent the beginner section. Posts, containing all the other levels will be release in the near future. So let's start.
 
 # Level 1 - Hidden Web Flag
 
@@ -147,3 +151,36 @@ If you're interested in *actual* hash cracking though, I recommend you take a lo
             img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level4_task.png"
             title="level4_task"
             caption="Level 4 Task" %}
+
+Last challenge in the *Beginner* area.
+
+So the task gives us a `HTTP GET request` and we can see the basic access authentication header field - `Authorization: Basic YWRtaW46dW5pY29ybmlj` - holds a value. If we look at the Wikipedia article of [basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) we can see the value is only base64 encoded and **not** encrypted (encoding != encryption).
+
+<br>
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level4_wikipedia.png"
+            title="level4_wikipedia"
+            caption="Wikipedia: Basic access authentication" %}
+
+<br>
+
+Since it's just encoding and a really common and well known too, we can easily decode it to retrieve a more useful representation of the data. There are plenty of online tools that do exactly this, you could also write a little script, for example in python, that decodes that data for you or just use your favourite command line / terminal.
+
+<br>
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level4_dec_base64_ps.png"
+            title="level4_dec_base64_ps"
+            caption="Example commands to decode base64 in PowerShell" %}
+
+<br>
+
+{% include image.html
+            img="/assets/2018-07-30-ryans-ctf-levels-1-to-4/level4_dec_base64_bash.png"
+            title="level4_dec_base64_bash"
+            caption="Example command to decode base64 in a Linux terminal" %}
+
+<br>
+
+That's it, we solved all challenges in the first category. In the next post we will start with the *Advanced* section.
