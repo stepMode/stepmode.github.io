@@ -29,7 +29,7 @@ The task provides us with an URL and login credentials. After accessing the page
 
 <br>
 
-Remembering the challenge name we start by looking for running databases. MySQL is a popular choice, let's start with it.
+Remembering the challenge task we can check if this machine has any MySQL services running, just to make sure what we are *attacking*.
 
 
 <br>
