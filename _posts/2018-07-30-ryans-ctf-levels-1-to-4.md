@@ -185,4 +185,4 @@ Since it's just encoding and a really common and well known too, we can easily d
 
 <br>
 
-That's it, we solved all challenges in the first category. In the next post we will start with the *Advanced* section.
+That's it, we solved all challenges in the first category. In the next post we will start with the *Intermediate* section.
