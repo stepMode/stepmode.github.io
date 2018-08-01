@@ -7,7 +7,7 @@ meta: ""
 tags: ctf
 ---
 
-The *Intermediate* section focuses a lot more on the Linux than the previous part. For that we are given a handy webshell in 3/4 challenges. Let's head right into it!
+The *Intermediate* section focuses a lot more on the Linux terminal than the previous part. For that we are given a handy webshell in 3/4 challenges. Let's head right into it!
 
 # Level 5 - Database password
 
