@@ -9,7 +9,7 @@ tags: ctf
 
 The *Intermediate* section focuses a lot more on the Linux terminal than the previous part. Therefore we are given a handy webshell in 3/4 challenges. Let's head right into it!
 
-# Level 5 - Database password
+# Level 5 - Database Password
 
 {% include image.html
             img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level5_task.png"
@@ -56,8 +56,9 @@ ERROR 1045 (28000): Access denied for user 'competitor'@'localhost' (using passw
 
 <br>
 
-Since this is a Linux system there should exist at least one other user that might be useful to us. The `root` user is usually the user with the UID (user identifier) 0, which on Linux (or Unix-like) systems makes it the superuser. Thus it comes with close to unlimited permissions. Let's see what happens when we try to login as `root`.
+Since this is a Linux system there should exist at least one other user that might be useful to us. The `root` user is usually the user with the UID (user identifier) 0, which on Linux (or Unix-like) systems makes it the superuser. Thus it comes with close to unlimited permissions. Systems like MySQL often reuse the term `root` to name their default/superuser. Let's see what happens when we try to login as `root`.
 
+Note: We are trying to login as the root user of the MySQL database **not** the root user of the host machine.
 ```shell
 ~$ mysql -u root -p
 Enter password:
