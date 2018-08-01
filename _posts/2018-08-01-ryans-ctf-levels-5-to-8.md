@@ -7,7 +7,7 @@ meta: ""
 tags: ctf
 ---
 
-The *Intermediate* section focuses a lot more on the Linux terminal than the previous part. For that we are given a handy webshell in 3/4 challenges. Let's head right into it!
+The *Intermediate* section focuses a lot more on the Linux terminal than the previous part. Therefore we are given a handy webshell in 3/4 challenges. Let's head right into it!
 
 # Level 5 - Database password
 
@@ -48,7 +48,13 @@ Now that we know what we got, we can plan our strategy. I mean we already got ac
 Enter password:  
 ```
 
-Oh well, we don't know the password of the user competitor. You might think it's `challenge1` but the credentials we used to access the webshell are not connected to the actual user inside the webshell.
+Oh well, we don't know the password of the user competitor. You might think it's `challenge1` but the credentials we used to access the webshell are not connected to the actual user inside the webshell. If we hit `Enter` without providing a password we get the following error.
+
+```shell
+ERROR 1045 (28000): Access denied for user 'competitor'@'localhost' (using password: NO)
+```
+
+<br>
 
 Since this is a Linux system there should exist at least one other user that might be useful to us. The `root` user is usually the user with the UID (user identifier) 0, which on Linux (or Unix-like) systems makes it the superuser. Thus it comes with close to unlimited permissions. Let's see what happens when we try to login as `root`.
 
@@ -56,3 +62,12 @@ Since this is a Linux system there should exist at least one other user that mig
 ~$ mysql -u root -p
 Enter password:
 ```
+
+Again a password prompt. **But** default installations of MySQL often don't set a password for root. So we just hit `Enter` again without providing a password.
+
+<br>
+
+{% include image.html
+            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level5_mysql_shell.png"
+            title="level5_mysql_shell"
+            caption="MySQL shell" %}
