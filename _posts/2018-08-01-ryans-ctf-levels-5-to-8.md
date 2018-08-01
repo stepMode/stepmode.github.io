@@ -41,7 +41,7 @@ Remembering the challenge task we can check if this machine has any MySQL servic
 
 <br>
 
-Now that we know what we got, we can plan our strategy. I mean we already got access to the host running the database server, there has to be something we can do. We could try to just login to the server, maybe it is that easy.
+Now that we know what we got, we can plan our strategy. I mean we already got access to the host running the database server, there has to be something we can do. We could just try to login to the server, maybe it is that easy.
 
 ```shell
 ~$ mysql -u competitor -p
