@@ -12,7 +12,7 @@ The *Intermediate* section focuses a lot more on the Linux terminal than the pre
 # Level 5 - Database Password
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level5_task.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level5_task.png"
             title="level5_task"
             caption="Level 5 Task" %}
 
@@ -23,7 +23,7 @@ The task provides us with an URL and login credentials. After accessing the page
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level5_webshell.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level5_webshell.png"
             title="level5_webshell"
             caption="Webshell" %}
 
@@ -35,7 +35,7 @@ Remembering the challenge task we can check if this machine has any MySQL servic
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level5_mysql_process.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level5_mysql_process.png"
             title="level5_mysql_process"
             caption="MySQL Process" %}
 
@@ -69,7 +69,7 @@ Again a password prompt. **But** default installations of MySQL often don't set 
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level5_mysql_shell.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level5_mysql_shell.png"
             title="level5_mysql_shell"
             caption="MySQL shell" %}
 
@@ -112,7 +112,7 @@ And here is the output of the command.
 
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level5_mysql_select_cmd.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level5_mysql_select_cmd.png"
             title="level5_mysql_select_cmd"
             caption="MySQL command to display the desired information" %}
 
@@ -154,7 +154,7 @@ It is a hash again. Remembering Level 3 we already have some experience with has
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level5_flag.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level5_flag.png"
             title="level5_flag"
             caption="Flag Level 5 (value redacted)" %}
 
@@ -167,7 +167,7 @@ And we are already done with level 1  of the *Intermediate* category.
 # Level 6 - Escape the Jail
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level6_task.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level6_task.png"
             title="level6_task"
             caption="Level 6 Task" %}
 
@@ -199,7 +199,7 @@ At that point we could just `sudo vim /root/flag.txt` and access the flag file l
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level6_flag.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level6_flag.png"
             title="level6_flag"
             caption="Flag Level 6 (value redacted)" %}
 
@@ -209,13 +209,13 @@ At that point we could just `sudo vim /root/flag.txt` and access the flag file l
 # Level 7 - Steganography
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level7_task.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level7_task.png"
             title="level7_task"
             caption="Level 7 Task" %}
 
 <br>
 
-No webshell this time, just an [image](/assets/2018-08-01-ryans-ctf-levels-5-to-8/hacker.jpg) and the challenge title already tells us what we are looking for.
+No webshell this time, just an [image](/assets/2018-08-04-ryans-ctf-levels-5-to-8/hacker.jpg) and the challenge title already tells us what we are looking for.
 
 [Steganography:](https://en.wikipedia.org/wiki/Steganography)  
 > [...] is the practice of concealing a file, message, image, or video within another file, message, image, or video.
@@ -225,7 +225,7 @@ So we  have to look for a possible file or message hidden within the image, to o
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level7_flag.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level7_flag.png"
             title="level7_flag"
             caption="Flag Level 7" %}
 
@@ -241,7 +241,7 @@ Simply outputs strings of printable characters found in a file. And that's the o
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level7_strings.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level7_strings.png"
             title="level7_strings"
             caption="strings command" %}
 
@@ -257,7 +257,7 @@ strings hacker.jpg | tail -n 1
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level7_tail.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level7_tail.png"
             title="level7_tail"
             caption="tail command" %}
 
@@ -274,7 +274,7 @@ I guess I don't need to explain that `base64` is used to `-d`ecode the given str
 # Level 8 - What's the password
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level8_task.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level8_task.png"
             title="level8_task"
             caption="Level 8 Task" %}
 
@@ -292,7 +292,7 @@ After logging in we should just try to run the program and see what happens.
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level8_program.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level8_program.png"
             title="level8_program"
             caption="Running the program" %}
 
@@ -303,7 +303,7 @@ We are expected to provide the correct password so the program returns the flag.
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level8_flag.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level8_flag.png"
             title="level8_flag"
             caption="Flag Level 8" %}
 
@@ -314,7 +314,7 @@ Well...that was fast. Maybe we can build another chain of commands that only spi
 <br>
 
 {% include image.html
-            img="/assets/2018-08-01-ryans-ctf-levels-5-to-8/level8_flag_command.png"
+            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level8_flag_command.png"
             title="level8level8_flag_command"
             caption="grep-ing the flag" %}
 
