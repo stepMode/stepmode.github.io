@@ -108,15 +108,7 @@ mysql> SELECT * FROM user where user="flag";
 ```
 
 This command returns all fields and their values for all users named `flag`.
-And here is the output of the command.
-
-
-{% include image.html
-            img="/assets/2018-08-04-ryans-ctf-levels-5-to-8/level5_mysql_select_cmd.png"
-            title="level5_mysql_select_cmd"
-            caption="MySQL command to display the desired information" %}
-
-<br>
+And here is the output of the command:
 
 ```shell
 +-----------+------+-------------+-------------+-------------+-------------+-------------+-----------+-------------+---------------+--------------+-----------+------------+-----------------+------------+---------
@@ -161,7 +153,7 @@ It is a hash again. Remembering Level 3 we already have some experience with has
 
 <br>
 
-And we are already done with level 1  of the *Intermediate* category.
+And we are already done with challenge 1  of the *Intermediate* category.
 
 
 # Level 6 - Escape the Jail
