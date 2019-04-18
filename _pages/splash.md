@@ -5,4 +5,4 @@ permalink: /splash
 ---
 
 Hi!
-I'm [stepMode](https://stepmode.github.io/about), welcome to my [blog](https://stepmode.github.io/) 
+I'm [ruly](https://ruly8.github.io/about), welcome to my [blog](https://ruly8.github.io/) 
