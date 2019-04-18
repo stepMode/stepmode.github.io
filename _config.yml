@@ -1,14 +1,14 @@
-title: stepMode's Blog
-author: stepMode
+title: ruly's Blog
+author: ruly8
 email:
 description: >
   infosec blog.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://stepmode.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ruly8.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-website: https://stepmode.github.io/
-github_username:  stepmode
+website: https://ruly8.github.io/
+github_username:  ruly8
 bitbucket_username:
 codepen_username:
 linkedin_username:
